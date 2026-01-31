@@ -8,8 +8,7 @@ st.set_page_config(
     layout='wide',
 )
 
-df = pd.read_csv(
-    r"D:\Users\Deepen\Box\Box Sync\Capacitação\Cursos Online\ALURA\Imersaoia\idcp-alura\salaries_tratado_rev1.csv"
+df = pd.read_csv(df = pd.read_csv("salaries_tratado_rev1.csv")
 )
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
